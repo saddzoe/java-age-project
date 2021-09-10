@@ -11,3 +11,7 @@ public class Person {
     this.wisdom = inputAge * 5;
     this.fitness = 100 - inputAge;
   }
+ 
+  public void setAge (int newAge) {
+    this.age = newAge;
+  }
