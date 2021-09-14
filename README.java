@@ -15,3 +15,8 @@ public class Person {
   public void setAge (int newAge) {
     this.age = newAge;
   }
+  
+  public void setWisdom (int newWisdom) {
+    this.wisdom = newWisdom;
+  }
+  
