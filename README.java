@@ -20,3 +20,10 @@ public class Person {
     this.wisdom = newWisdom;
   }
   
+  public void hasBirthday() {
+    
+    this.setAge(this.age + 1);
+    this.setWisdom(this.wisdom + 5);
+    this.setFitness(this.fitness - 3);
+  }
+  
